@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 250px;
+}
+
+.header-image{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    gap: 48px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    gap: 16px;
+    top: 8px;
+    bottom: 8px;
+    left: 16px;
+    right: 16px;
+}
+
+a{
+    font-weight: 600;
+    font-style: semi-bold;
+    font-size: 16px;
+}
+
+.header-right a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-style: semi-bold;
+
+}
+
+.header-right img{
+    width: 21px;
+    height: 21px;
+    top: 1.8px;
+    left: 1px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.dessert-catalogue{
+   display: flex;
+   flex-direction: column;
+   color: #1E9658;
+   width: 323px;
+   height: 62px;
+}
+
+.dessert-catalogue h1{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+}
+
+.dessert-catalogue-special{
+    display: flex;
+    flex-direction: column;
+    color: #2D2D2D;
+    width: 203px;
+    height: 42px;
+    padding-top: 70px;
+}
+
+.dessert-catalogue-special h2{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.dessert-control{
+    display: flex;
+    gap: 3px;
+    /* padding-left: 10px; */
+    /* padding-right: 40px; */
+    padding-top: 40px;
+
+}
+
+.dessert-pictures{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 1200px;
+    height: 830px;
+}
+
+.pic1{
+    background-image: url(/donkwa.png);
+}
+/* special menu image text control start */
+.pic1i{
+    display: flex;
+    padding-top: -5px;
+
+}
+
+.pic1iii{
+    display: flex;
+    flex-direction: column;
+}
+.pic1ii{
+    display: flex;
+    gap: 129.6px;
+}
+span{
+    margin-top: 305px;
+}
+.spans1{
+    margin-top: 305px;
+    margin-left: -55px;
+}
+.spans2{
+    margin-top: 305px;
+    margin-left: 45px;
+}
+.spans3{
+    margin-top: 305px;
+    margin-left: 35px;
+}
+.spans4{
+    margin-top: 305px;
+    margin-left: 112px;
+}
+.spans5{
+    margin-top: 305px;
+    margin-left: 85px;
+}
+.spans6{
+    margin-top: 305px;
+    margin-left: 150px;
+}
+.pic2{
+    background-image: url(/nakia\ rice\ cake.png);
+}
+.pic2ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic3{
+    background-image: url(/Gulisua.png);
+}
+
+.pic3ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic4{
+    background-image: url(/tunwo\ madara.png);
+}
+
+.pic4ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic5{
+    background-image: url(/Rouge\ Dessert.png);
+}
+
+.pic5ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic6{
+    background-image: url(/shuku\ shuku.png);
+}
+
+.pic6ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6{
+    width: 380px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pic1 h4,
+.pic2 h4,
+.pic3 h4,
+.pic4 h4,
+.pic5 h4,
+.pic6 h4{
+   color: #1E9658;
+   font-family: "DM Sans", sans-serif;
+   font-size: 12px;
+   font-weight: 400;
+   font-style: bold;
+   padding-top: 300px;
+}
+
+.pic1 h3,
+.pic2 h3,
+.pic3 h3,
+.pic4 h3,
+.pic5 h3,
+.pic6 h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+button{
+    display: flex;
+    gap: 16px;
+    color: #FFFF;
+    background-color: #1E9658;
+    border: none;
+    width: 172px;
+    height: 52px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -6.5%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.appetizer-menu{
+    display: flex;
+    flex-direction: column;
+    color: #2D2D2D;
+    width: 203px;
+    height: 42px;
+    padding-top: -10px;
+}
+
+.appetizer-menu h2{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.appetizer-control{
+    display: flex;
+    gap: 3px;
+    padding-top: 30px;
+}
+
+.appetizer-pictures{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 1200px;
+    height: 830px;
+}
+
+.pic7{
+    background-image: url(/small\ chops.png);
+}
+
+.pic7i{
+    display: flex;
+    padding-top: -5px;
+
+}
+
+.pic7iii{
+    display: flex;
+    flex-direction: column;
+}
+.pic7ii{
+    display: flex;
+    gap: 129.6px;
+}
+
+.pic8{
+    background-image: url(/peanut\ butter\ cookies.png);
+}
+
+.pic8ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic9{
+    background-image: url(/plantain\ chips.png);
+}
+
+.pic9ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic10{
+    background-image: url(/chin\ chin.png);
+}
+
+.pic10ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic11{
+    background-image: url(/beans\ cake\ akara.png);
+}
+
+.pic11ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic12{
+    background-image: url(/cookies\ crisp.png);
+}
+
+.pic12ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic7,
+.pic8,
+.pic9,
+.pic10,
+.pic11,
+.pic12{
+    width: 380px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pic7 h4,
+.pic8 h4,
+.pic9 h4,
+.pic10 h4,
+.pic11 h4,
+.pic12 h4{
+   color: #1E9658;
+   font-family: "DM Sans", sans-serif;
+   font-size: 12px;
+   font-weight: 400;
+   font-style: bold;
+   padding-top: 300px;
+}
+
+
+
+.pic7 h3,
+.pic8 h3,
+.pic9 h3,
+.pic10 h3,
+.pic11 h3,
+.pic12 h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.vegan-menu{
+    display: flex;
+    flex-direction: column;
+    color: #2D2D2D;
+    width: 203px;
+    height: 42px;
+    padding-top: -10px;
+}
+
+.vegan-menu h2{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.vegan-control{
+    display: flex;
+    gap: 3px;
+    padding-top: 40px;
+}
+
+.vegan-pictures{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 1200px;
+    height: 830px;
+}
+
+.pic13{
+    background-image: url(/plantain\ waffles.png);
+}
+.pic13i{
+    display: flex;
+    /* padding-top: -5px; */
+
+}
+
+.pic13iii{
+    display: flex;
+    flex-direction: column;
+}
+.pic13ii{
+    display: flex;
+    gap: 129.6px;
+}
+.pic14{
+    background-image: url(/banana\ almond\ butter\ cake.png);
+}
+
+.pic14i{
+    display: flex;
+    padding-top: -5px;
+}
+
+.pic14iii{
+    display: flex;
+    flex-direction: column;
+}
+.pic14ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic15{
+    background-image: url(/plantain\ chocolate\ fudge.png);
+}
+
+.pic15i{
+    display: flex;
+    padding-top: -5px;
+}
+
+.pic15iii{
+    display: flex;
+    flex-direction: column;
+}
+.pic15ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic16{
+    background-image: url(/coconut\ cookies.png);
+}
+
+.pic16i{
+    display: flex;
+    padding-top: -5px;
+}
+
+.pic16iii{
+    display: flex;
+    flex-direction: column;
+}
+.pic16ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic17{
+    background-image: url(/mango\ cream\ desert.png);
+}
+
+.pic17i{
+    display: flex;
+    padding-top: -5px;
+}
+
+.pic17iii{
+    display: flex;
+    flex-direction: column;
+}
+.pic17ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic18{
+    background-image: url(/masa.png);
+}
+
+.pic18i{
+    display: flex;
+    padding-top: -5px;
+}
+
+.pic18iii{
+    display: flex;
+    flex-direction: column;
+}
+.pic18ii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic13,
+.pic14,
+.pic15,
+.pic16,
+.pic17,
+.pic18{
+    width: 380px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pic13 h4,
+.pic14 h4,
+.pic15 h4,
+.pic16 h4,
+.pic17 h4,
+.pic18 h4{
+   color: #1E9658;
+   font-family: "DM Sans", sans-serif;
+   font-size: 12px;
+   font-weight: 400;
+   font-style: bold;
+   padding-top: 300px;
+   white-space: nowrap;
+}
+
+.pic13 h3,
+.pic14 h3,
+.pic15 h3,
+.pic16 h3,
+.pic17 h3,
+.pic18 h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.delivery-control{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    /* padding-left: 36px; */
+   /*  padding-right: 36px; */
+    display: flex;
+    /* gap: 30px; */
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #1E9658;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+    /* width: 427px;
+    height: 50px; */
+    width: 443px;
+    height: 50px;
+
+}
+.a{
+    padding-bottom: 330px;
+}
+/* .delivery-button{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: #1E9658;
+    color: black;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+    
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    width: 527px;
+    height: 70px;
+} */
+
+.delivery-button .label{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.delivery-button .icon{
+    width: 18px;
+    height: 18px;
+}
+
+.icon img{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    z-index: 1000;
+    top: -150px;
+}

@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 250px;
+}
+
+.header-image{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    gap: 48px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    gap: 16px;
+    top: 8px;
+    bottom: 8px;
+    left: 16px;
+    right: 16px;
+}
+
+a{
+    font-weight: 600;
+    font-style: semi-bold;
+    font-size: 16px;
+}
+
+.header-right a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-style: semi-bold;
+
+}
+
+.header-right img{
+    width: 21px;
+    height: 21px;
+    top: 1.8px;
+    left: 1px;
+}
+
+
+.background-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.blog-picture{
+    background-image: url("/coconut\ chips.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 650px;
+    padding-top: 170px;
+    padding-left: 40px;
+}
+
+.blog-content{
+    background-color: #ffff;
+    padding-top: 20px;
+    width: 450px;
+    height: 354px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px #000000;
+}
+
+
+.blog-writeup h1{
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+    word-spacing: 3px;
+    padding-bottom: 20px;
+    color: #000000;
+    width: 275px;
+    /* height: 60px; */
+}
+
+.blog-writeup p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
+    word-spacing: 3px;
+    color: #00000069;
+    width: 275px;
+    /* height: 60px; */
+}
+
+.blog-image{
+    display: flex;
+    gap: 25px;
+    padding-top: 70px;
+}
+
+.blog-image img{
+    width: 60px;
+    height: 60px;
+}
+.writeup{
+    padding-top: 10px;
+}
+
+.writeup h3{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%;
+    color: #000000;
+    width: 100px;
+}
+
+.writeup p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 130%;
+    color:#000000;
+}
+
+.little-picture{
+    display: flex;
+}
+.image-2{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.image-2 img{
+    width: 40px;
+    height: 40px;
+}
+
+.image-3{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.image-3 img{
+    width: 40px;
+    height: 40px;
+}
+
+section{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    /* flex-direction: column; */
+    padding-top: 70px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+
+.newsletter-control{
+    display: flex;
+    gap: 30px;
+    width: 890px;
+    height: 100px;
+    background-color: #1E9658;
+
+}
+
+.newsletter-button{
+    display: flex;
+    gap: 330px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.news{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffff;
+    
+    padding-left: 25px;
+}
+
+.mail{
+    display: flex;
+    /* gap: 0px; */
+    width: 100%;
+    height: 51px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+    background-color: white;
+    /* padding-top: 5px; */
+    /* padding-bottom: 15px; */
+    padding-left: 15px;
+}
+
+.newsletter-input{
+    flex: 1;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(green);
+    background: var(white);
+    border: none;
+    letter-spacing: 0.02rem;
+}
+
+.newsletter-input::placeholder {
+    color: #1E9658;
+}
+
+.newsletter-btn{
+    background-color: black;
+    color: #ffff;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    border: none;
+    width: 100px;
+    height: 51px;
+    padding: 16px 0;
+}
+
+
+
