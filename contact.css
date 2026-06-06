@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 250px;
+}
+
+.header-image{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    gap: 48px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    gap: 16px;
+    top: 8px;
+    bottom: 8px;
+    left: 16px;
+    right: 16px;
+}
+
+a{
+    font-weight: 600;
+    font-style: semi-bold;
+    font-size: 16px;
+}
+
+.header-right a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-style: semi-bold;
+
+}
+
+.header-right img{
+    width: 21px;
+    height: 21px;
+    top: 1.8px;
+    left: 1px;
+}
+
+main{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.background-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.contact-picture{
+    background-image: url(/cookie\ image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120vh;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    padding-top: 91px;
+    /* padding-left: 700px; */
+}
+
+.contact-info h1{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+}
+
+.person-name{
+    background-color: #8f8f8f5a;
+    color: white;
+    padding: 10px;
+}
+.person-name input{
+    width: 600px;
+    height: 50px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 20px;
+}
+
+.person-name input::placeholder{
+    color: #f4f4f4ac;
+}
+
+.email-1{
+    background-color: #8f8f8f5a;
+    color: white;
+    padding: 10px;
+}
+
+.email-1 input{
+    width: 600px;
+    height: 50px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 20px;
+}
+
+.email-1 input::placeholder{
+    color: #f4f4f4ac;
+}
+
+.message{
+    background-color: #8f8f8f5a;
+    color: white;
+    padding: 10px;
+}
+
+.message input{
+    width: 600px;
+    height: 200px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    padding-bottom: 150px;
+    padding-left: 20px;
+}
+
+.message input::placeholder{
+    color: #f4f4f4ac;
+}
+
+button{
+    width: 620px;
+    height: 50px;
+    background-color: #1E9658;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ .nav-control{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 70px;
+    width: 1118px;
+    height: 200px;
+    background-color: white;
+}
+
+.footer-navigation{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* gap: 70px;
+    padding-left: 150px;
+    padding-right: 150px; */
+}
+.about{
+    padding-left: 120px;
+    line-height: 100%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+    
+}
+.write-up{
+    padding-top: 20px;
+    line-height: 100%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+    
+}
+.write-up p{
+    padding-bottom: 8px;
+}
+.write-ups{
+    padding-top: 20px;
+    line-height: 100%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+}
+.write-ups p{
+    padding-bottom: 25px;
+    padding-left: 26px;
+}
+.contact-us{
+    line-height: 100%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+    padding-left: 120px;
+}
+.contact-icons{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    right: 570px;
+    bottom: 20px;
+}
+.contact-icons img{
+    width: 16px;
+    height: 16px;
+}
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 24px;
+    height: 24px;
+    padding-left: 50px;
+}
+.follow-us a{
+    width: 200px;
+    height: 30px;
+}
+.social-media{
+    display: flex;
+    gap: 20px;
+}
+.social-media img{
+    width: 15px;
+    height: 15px;
+} 

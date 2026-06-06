@@ -166,8 +166,10 @@ section{
     justify-content: center; */
     /* flex-direction: column; */
     padding-top: 70px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     padding-left: 40px;
+    padding-right: 60px;
+    height: auto;
 }
 
 .newsletter-control{
@@ -191,7 +193,6 @@ section{
     font-size: 20px;
     font-weight: 500;
     color: #ffff;
-    
     padding-left: 25px;
 }
 
@@ -239,5 +240,220 @@ section{
     cursor: pointer;
 }
 
+.recipe-control{
+    display: flex;
+    gap: 30px;
+    padding-right: 40px;
+    padding-bottom: 150px;
+}
+
+.recipe-pictures{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.recipe-pic1{
+    background-image: url(/egusi.png);
+    background-repeat: no-repeat;
+}
+.recipe-pic2{
+    background-image: url(/plantain\ pancake\ recipe.png);
+    background-repeat: no-repeat;
+}
+.recipe-pic3{
+    background-image: url(/semolina\ puff\ puff.png);
+    background-repeat: no-repeat;
+}
+
+.recipe-pic1,
+.recipe-pic2,
+.recipe-pic3{
+    width: 365px;
+    height: 443px;
+}
 
 
+.recipe-pic1 h4,
+.recipe-pic2 h4,
+.recipe-pic3 h4{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #000000;
+    width: 102px;
+    line-height: 150%;
+    padding-top: 450px;
+}
+
+.recipe-pic1 h2,
+.recipe-pic2 h2,
+.recipe-pic3 h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #000000;
+    width: 330px;
+    line-height: 150%;
+}
+
+.recipe-pic1 p,
+.recipe-pic2 p,
+.recipe-pic3 p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 130%;
+    color: #000000;
+    width: 390px;
+    height: 70px;
+    line-height: 139%;
+    padding-top: 10px;
+}
+
+.read-more-button{
+    display: flex;
+    /* gap: 10px; */
+    padding-top: 30px;
+    padding-left: 215px;
+    /* width: 200px;
+    height: 100px; */
+}
+
+.read{
+    display: flex;
+    gap: 10px;
+    background-color: #1E9658;
+    color: #ffff;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    border: none;
+    width: 150px;
+    height: 51px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.arrow{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    padding-top: 15px;
+    padding-left: 1px;
+    margin-left: -40px;
+    /* background-color: black; */
+}
+
+.read-more-button img{
+    width: 24px;
+    height: 24px;
+}
+
+
+footer{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ .nav-control{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 70px;
+    width: 1118px;
+    height: 200px;
+    background-color: white;
+}
+
+.footer-navigation{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* gap: 70px;
+    padding-left: 150px;
+    padding-right: 150px; */
+}
+.about{
+    padding-left: 120px;
+    line-height: 100%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+    
+}
+.write-up{
+    padding-top: 20px;
+    line-height: 100%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+    
+}
+.write-up p{
+    padding-bottom: 8px;
+}
+.write-ups{
+    padding-top: 20px;
+    line-height: 100%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+}
+.write-ups p{
+    padding-bottom: 25px;
+    padding-left: 26px;
+}
+.contact-us{
+    line-height: 100%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+    padding-left: 120px;
+}
+.contact-icons{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    right: 570px;
+    bottom: 20px;
+}
+.contact-icons img{
+    width: 16px;
+    height: 16px;
+}
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 24px;
+    height: 24px;
+    padding-left: 50px;
+}
+.follow-us a{
+    width: 200px;
+    height: 30px;
+}
+.social-media{
+    display: flex;
+    gap: 20px;
+}
+.social-media img{
+    width: 15px;
+    height: 15px;
+} 
