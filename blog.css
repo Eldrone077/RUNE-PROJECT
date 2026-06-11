@@ -221,6 +221,7 @@ section{
     background: var(white);
     border: none;
     letter-spacing: 0.02rem;
+    outline: none;
 }
 
 .newsletter-input::placeholder {

@@ -29,7 +29,19 @@ nav a{
     bottom: 8px;
     left: 16px;
     right: 16px;
+    
 }
+
+/* nav a::after{
+    transition: width 0.3s ease;
+    background-color: #1E9658;
+    width: 100%;
+}
+
+nav a:hover::after{
+    width: 100%;
+} */
+
 
 a{
     font-weight: 600;
